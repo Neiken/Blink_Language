@@ -36,11 +36,11 @@
 &nbsp;PRINT  #<value_stack>                      <br/>
 
 #### Description:
-&nbsp;CREATE = Creates a pointer with <name> of type <type>                                                                      <br/>
-&nbsp;BIND   = Bind a pointer with <name>                                                                                        <br/>
-&nbsp;SET    = Defines the value of currently using pointer as <value>                                                           <br/>
+&nbsp;CREATE = Creates a pointer with \<name\> of type \<type\>                                                                      <br/>
+&nbsp;BIND   = Bind a pointer with \<name\>                                                                                        <br/>
+&nbsp;SET    = Defines the value of currently using pointer as \<value\>                                                           <br/>
 &nbsp;PUSH   = Adds the currently using pointer as last in stack <pointer_stack>                                                 <br/>
-&nbsp;PUSH   = Adda the value <value> as last in stack <value_stack>                                                             <br/>
+&nbsp;PUSH   = Adda the value \<value\> as last in stack <value_stack>                                                             <br/>
 &nbsp;POP    = Removes the last pointer in stack <pointer_stack>                                                                 <br/>
 &nbsp;POP    = Removes the last value in stack <value_stack>                                                                     <br/>
 &nbsp;ADDV   = Sums the last two pointers values in stack <pointer_stack> and sets the value as value of currently using pointer <br/>
