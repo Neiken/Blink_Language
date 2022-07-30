@@ -22,11 +22,11 @@
 ## Blink Object Language:
 ### Documentation:
 #### Instructions:
-&nbsp;CREATE <name>          :<type>             <br/>
-&nbsp;USE    <name>                              <br/>
-&nbsp;SET    <value>                             <br/>
+&nbsp;CREATE \<name\>          :\<type\>         <br/>
+&nbsp;USE    \<name\>                            <br/>
+&nbsp;SET    \<value\>                           <br/>
 &nbsp;PUSH   #<pointer_stack>                    <br/>
-&nbsp;PUSH   #<value_stack>   <value>            <br/>
+&nbsp;PUSH   #<value_stack>   \<value\>          <br/>
 &nbsp;POP    #<pointer_stack>                    <br/>
 &nbsp;POP    #<value_stack>                      <br/>
 &nbsp;ADDV   #<pointer_stack>                    <br/>
