@@ -22,8 +22,8 @@
 ## Blink Object Language:
 ### Documentation:
 #### Instructions:
-&nbsp;CREATE \<name\>          :\<type\>         <br/>
-&nbsp;USE    \<name\>                            <br/>
+&nbsp;CREATE \<name\>        :\<type\>           <br/>
+&nbsp;BIND   \<name\>                            <br/>
 &nbsp;SET    \<value\>                           <br/>
 &nbsp;PUSH   #<pointer_stack>                    <br/>
 &nbsp;PUSH   #<value_stack>   \<value\>          <br/>
@@ -37,7 +37,7 @@
 
 #### Description:
 &nbsp;CREATE = Creates a pointer with <name> of type <type>                                                                      <br/>
-&nbsp;USE    = Uses a pointer with <name>                                                                                        <br/>
+&nbsp;BIND   = Bind a pointer with <name>                                                                                        <br/>
 &nbsp;SET    = Defines the value of currently using pointer as <value>                                                           <br/>
 &nbsp;PUSH   = Adds the currently using pointer as last in stack <pointer_stack>                                                 <br/>
 &nbsp;PUSH   = Adda the value <value> as last in stack <value_stack>                                                             <br/>
